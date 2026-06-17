@@ -1,395 +1,514 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="wpOceans">
-    <link rel="shortcut icon" type="image/png" href="https://wpocean.com/html/tf/portio-live/portio/assets/images/favicon.png">
-    <title>Luiz Alencar | Personal Portfolio Resume</title>
-
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/odometer-theme-default.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/slick.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/slick-theme.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/css/animate.min.css">
-    <link rel="stylesheet" href="https://wpocean.com/html/tf/portio-live/portio/assets/sass/style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio profissional de Luiz Alencar, Software Engineer, MSc e PhD Candidate em Computer Vision, AWS e Machine Learning." />
+  <meta name="author" content="Luiz Alencar" />
+  <title>Luiz Alencar — Software Engineer | MSc | PhD Candidate</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <div class="loader-mask">
-        <div class="loader">
-            <div></div>
-            <div></div>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="gradient-mesh" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-bar container" aria-label="Navegação principal">
+      <a class="brand" href="#top" aria-label="Ir para o início">
+        <span class="brand-mark">LA</span>
+        <span class="brand-text">Luiz Alencar</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" data-nav-links>
+        <a href="#about">Sobre</a>
+        <a href="#experience">Experiência</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projetos</a>
+        <a href="#research">Pesquisa</a>
+        <a class="nav-cta" href="#contact">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Software Engineering · AWS · Machine Learning</span>
+          <h1 id="hero-title">Sistemas escaláveis, IA aplicada e visão computacional.</h1>
+          <p class="lead">
+            Senior Software Engineer com experiência no desenho e entrega de sistemas escaláveis em AWS e soluções baseadas em Machine Learning. Atua em dados, visão computacional e automação de ponta a ponta, do conceito à produção.
+          </p>
+          <div class="hero-tags" aria-label="Principais competências">
+            <span>Python</span>
+            <span>AWS</span>
+            <span>TensorFlow</span>
+            <span>Computer Vision</span>
+            <span>Data Pipelines</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-green" href="mailto:fabio.alencar644@gmail.com">Entrar em contato</a>
+            <a class="button button-primary" href="https://www.linkedin.com/in/luiz-fabio" target="_blank" rel="noreferrer">Ver LinkedIn</a>
+          </div>
         </div>
+
+        <aside class="hero-card reveal reveal-delay-1" aria-label="Resumo profissional">
+          <div class="avatar-shell">
+            <img class="profile-photo" src="profile.png" alt="Foto de perfil de Luiz Alencar" />
+            <div class="avatar-placeholder" aria-hidden="true">
+              <span>LA</span>
+            </div>
+          </div>
+          <div class="hero-card-content">
+            <p class="role">Luiz Alencar</p>
+            <p class="title">Software Engineer | MSc | PhD Candidate</p>
+            <p class="location">Manaus, Amazonas, Brazil</p>
+          </div>
+          <div class="mini-stats">
+            <div>
+              <strong>5+</strong>
+              <span>anos no BTG Pactual</span>
+            </div>
+            <div>
+              <strong>MSc</strong>
+              <span>Computer Vision</span>
+            </div>
+            <div>
+              <strong>PhD</strong>
+              <span>Candidate</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stats-strip section-tight" aria-label="Indicadores de carreira">
+      <div class="container stats-grid">
+        <article class="stat-card reveal">
+          <span class="stat-number">9</span>
+          <span class="stat-label">funções e marcos profissionais</span>
+        </article>
+        <article class="stat-card reveal reveal-delay-1">
+          <span class="stat-number">5</span>
+          <span class="stat-label">publicações listadas</span>
+        </article>
+        <article class="stat-card reveal reveal-delay-2">
+          <span class="stat-number">3</span>
+          <span class="stat-label">frentes de especialidade: cloud, IA e dados</span>
+        </article>
+        <article class="stat-card reveal reveal-delay-3">
+          <span class="stat-number">AWS</span>
+          <span class="stat-label">arquiteturas escaláveis e alta disponibilidade</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container split-layout">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Sobre mim</span>
+          <h2 id="about-title">Engenharia com pesquisa, produto e impacto real.</h2>
+        </div>
+        <div class="about-panel feature-card-gradient reveal reveal-delay-1">
+          <p>
+            Luiz Alencar combina experiência em engenharia de software para plataformas financeiras, formação acadêmica em visão computacional e atuação em projetos de IA aplicada, educação computacional e sistemas críticos para saúde.
+          </p>
+          <p>
+            Sua trajetória passa por arquitetura em nuvem, processamento de dados financeiros, pipelines, REST APIs, modelos de Deep Learning, monitoramento ambiental com drones e jogos educacionais orientados ao desenvolvimento do pensamento computacional.
+          </p>
+          <div class="specialty-grid">
+            <span>Investment Analytics</span>
+            <span>Machine Learning</span>
+            <span>Computer Vision</span>
+            <span>Cloud Architecture</span>
+            <span>Financial Data</span>
+            <span>Educational Technology</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase-band" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow">Experiência profissional</span>
+          <h2 id="experience-title">Uma linha do tempo de evolução técnica e liderança.</h2>
+          <p>
+            Da pesquisa aplicada e educação computacional à liderança de iniciativas em plataformas de analytics para investimentos.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">September 2024 — Present</span>
+              <h3>Senior Software Engineer · BTG Pactual</h3>
+              <p>
+                Lidera iniciativas técnicas para plataformas de investment analytics, com decisões de arquitetura, otimização de custos em cloud e alinhamento entre engenharia e produto.
+              </p>
+              <ul>
+                <li>Desenvolvimento de módulos de alta performance para portfolio analytics.</li>
+                <li>Arquiteturas escaláveis e de alta disponibilidade em AWS.</li>
+                <li>Mentoria técnica, boas práticas, roadmap e estratégia tecnológica.</li>
+                <li>Pipelines de dados para análise de séries temporais financeiras.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">September 2022 — August 2024</span>
+              <h3>Mid-Level Software Engineer · BTG Pactual</h3>
+              <p>
+                Desenvolveu sistemas escaláveis para processamento de dados financeiros e monitoramento de portfólios, assumindo crescente responsabilidade em arquitetura e entrega.
+              </p>
+              <ul>
+                <li>Sistemas para análise de dados financeiros em tempo real.</li>
+                <li>Serviços com DynamoDB, Lambda, SQS, SNS e API Gateway.</li>
+                <li>Testes, code review, version control e suporte a produção.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">June 2021 — October 2022</span>
+              <h3>Junior Software Engineer · BTG Pactual</h3>
+              <p>
+                Contribuiu para soluções de dados financeiros, construindo pipelines e serviços confiáveis enquanto desenvolvia conhecimento de domínio.
+              </p>
+              <ul>
+                <li>Pipelines e serviços com Python e JavaScript.</li>
+                <li>REST APIs para métricas financeiras e rastreamento de ativos.</li>
+                <li>Integração com S3 e Lambda.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">March 2021 — November 2021</span>
+              <h3>RD&amp;I Scholarship Holder · UEA</h3>
+              <p>
+                Participou do desenvolvimento de um sistema de IA com drones para detectar objetos estranhos, especialmente lixo, em ambientes fluviais da região de Manaus.
+              </p>
+              <ul>
+                <li>Modelos de Deep Learning para classificar e mapear áreas de acúmulo de resíduos.</li>
+                <li>Integração de imagens de drones com algoritmos de IA e geração de heat maps.</li>
+                <li>Uso de Python, TensorFlow e Huawei Cloud.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">June 2020 — March 2021</span>
+              <h3>RD&amp;I Scholarship Holder · UEA</h3>
+              <p>
+                Atuou no desenvolvimento de um sistema de gestão de transfusão sanguínea e hemocomponentes para instituição de hematologia e hemoterapia do Norte do Brasil.
+              </p>
+              <ul>
+                <li>REST APIs robustas para regras de negócio clínicas.</li>
+                <li>Modelagem de fluxos, validação de lógica crítica e arquitetura.</li>
+                <li>Foco em segurança, confiabilidade, desempenho e integridade dos dados.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">2017 — 2021</span>
+              <h3>Researcher · ThinkTEd Lab</h3>
+              <p>
+                Contribuiu com jogos educacionais e pesquisa em tecnologia educacional, com ênfase em game-based learning, programação e avaliação heurística.
+              </p>
+              <ul>
+                <li>Aulas de lógica de programação e materiais instrucionais.</li>
+                <li>Integração de mecânicas de jogo com objetivos de aprendizagem.</li>
+                <li>Avaliações de usabilidade e impacto educacional.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">May 2020 — June 2020</span>
+              <h3>Software Developer · Adarvo</h3>
+              <p>
+                Desenvolvedor freelance em jogo educacional para campanha pública de prevenção à Covid-19, com storytelling interativo e gamificação.
+              </p>
+              <ul>
+                <li>Jogo educacional cross-platform.</li>
+                <li>Funcionalidades interativas, UX/UI intuitiva e ciclos iterativos com stakeholders.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <span class="period">July 2017 — January 2018</span>
+              <h3>PIBID Scholarship Holder · UEA</h3>
+              <p>
+                Contribuiu para o desenvolvimento educacional de estudantes por meio de ensino prático em lógica de programação e desenvolvimento de jogos.
+              </p>
+              <ul>
+                <li>Aulas com Scratch e produção de jogos com Construct.</li>
+                <li>Aprendizagem baseada em projetos, criatividade e pensamento crítico.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Formação acadêmica</span>
+          <h2 id="education-title">Base acadêmica em computação e visão computacional.</h2>
+        </div>
+        <div class="education-grid">
+          <article class="education-card feature-card-dark reveal">
+            <span class="badge">PhD</span>
+            <h3>Universidade Federal do Amazonas</h3>
+            <p>PhD, Computer Vision</p>
+            <span class="period">March 2024</span>
+          </article>
+          <article class="education-card feature-card-dark reveal reveal-delay-1">
+            <span class="badge">Master's degree</span>
+            <h3>Universidade Federal do Amazonas</h3>
+            <p>Computer Vision</p>
+            <span class="period">August 2021 — February 2024</span>
+          </article>
+          <article class="education-card feature-card-dark reveal reveal-delay-2">
+            <span class="badge">Licentiate degree</span>
+            <h3>Universidade do Estado do Amazonas</h3>
+            <p>Degree in Computing</p>
+            <span class="period">2017 — August 2021</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow">Competências técnicas</span>
+          <h2 id="skills-title">Stack voltada a cloud, dados, IA e produtos digitais.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-card-head">
+              <span class="skill-icon">01</span>
+              <h3>Linguagens & Engenharia</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Python</span><span>JavaScript</span><span>HTML5</span><span>REST APIs</span><span>Testing</span><span>Code Review</span><span>Version Control</span><span>Documentation</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal reveal-delay-1">
+            <div class="skill-card-head">
+              <span class="skill-icon">02</span>
+              <h3>Cloud & Infraestrutura</h3>
+            </div>
+            <div class="skill-tags">
+              <span>AWS</span><span>DynamoDB</span><span>Lambda</span><span>SQS</span><span>SNS</span><span>API Gateway</span><span>S3</span><span>Huawei Cloud</span><span>High Availability</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal reveal-delay-2">
+            <div class="skill-card-head">
+              <span class="skill-icon">03</span>
+              <h3>IA, Dados & Visão</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Machine Learning</span><span>Deep Learning</span><span>TensorFlow</span><span>Computer Vision</span><span>Data Pipelines</span><span>Financial Time Series</span><span>Siamese Network</span><span>Heat Maps</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal reveal-delay-3">
+            <div class="skill-card-head">
+              <span class="skill-icon">04</span>
+              <h3>Jogos, Educação & UX</h3>
+            </div>
+            <div class="skill-tags">
+              <span>Unity</span><span>Construct</span><span>Scratch</span><span>2D Games</span><span>AR Games</span><span>Educational Games</span><span>Gamification</span><span>UX/UI</span><span>Usability Heuristics</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Projetos e domínios</span>
+          <h2 id="projects-title">Soluções com impacto em finanças, meio ambiente, saúde e educação.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-kicker">Finance · AWS · Data</div>
+            <h3>Investment Analytics & Portfolio Monitoring</h3>
+            <p>
+              Plataformas e módulos para análise de portfólio, processamento de dados financeiros, séries temporais e métricas de ativos.
+            </p>
+            <div class="project-impact">
+              <span>Real-time financial data</span>
+              <span>Portfolio analytics</span>
+              <span>AWS services</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-kicker">AI · Drones · Environment</div>
+            <h3>Curupira Project</h3>
+            <p>
+              Plataforma para monitoramento inteligente de resíduos em rios amazônicos, com imagens de drones, IA e geração de mapas de calor para apoiar ações ambientais.
+            </p>
+            <div class="project-impact">
+              <span>TensorFlow</span>
+              <span>Drone image processing</span>
+              <span>Huawei Cloud</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-kicker">Healthcare · APIs · Critical Systems</div>
+            <h3>Blood Transfusion Management System</h3>
+            <p>
+              Sistema para gestão de transfusão sanguínea e hemocomponentes, traduzindo regras clínicas complexas em APIs robustas e fluxos confiáveis.
+            </p>
+            <div class="project-impact">
+              <span>REST APIs</span>
+              <span>Clinical workflows</span>
+              <span>Data integrity</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-3">
+            <div class="project-kicker">Education · Games · Computational Thinking</div>
+            <h3>Educational Games & Digital Narratives</h3>
+            <p>
+              Desenvolvimento de jogos educacionais, narrativas digitais, atividades de programação e oficinas para pensamento computacional e aprendizagem baseada em jogos.
+            </p>
+            <div class="project-impact">
+              <span>Unity</span>
+              <span>Construct</span>
+              <span>Scratch</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section black-band" id="research" aria-labelledby="research-title">
+      <div class="container research-layout">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Publicações e pesquisa</span>
+          <h2 id="research-title">Produção em IA, educação computacional e visão computacional.</h2>
+          <p>
+            Publicações listadas no currículo, abrangendo jogos educacionais, pensamento computacional, monitoramento ambiental e filtragem inteligente de imagens.
+          </p>
+        </div>
+
+        <div class="publication-list reveal reveal-delay-1">
+          <article>
+            <span>01</span>
+            <h3>Caminho Binário: um objeto de aprendizagem para codificação binária</h3>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Looking for Pets: um jogo de estratégia para o desenvolvimento do Pensamento Computacional</h3>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Uma proposta de análise de dados exploratória para um jogo educacional de Matemática</h3>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Curupira Project: A Platform for Intelligent Monitoring of Waste in Amazon Rivers</h3>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>A Context-Aware Approach for Filtering Empty Images in Camera Trap Data Using Siamese Network</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements" aria-labelledby="achievements-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Conquistas e atividades</span>
+          <h2 id="achievements-title">Reconhecimento acadêmico, extensão e participação comunitária.</h2>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card reveal">
+            <h3>Bolsista</h3>
+            <p>No projeto “Exercitando o Pensamento Computacional com Crianças”.</p>
+          </article>
+          <article class="achievement-card reveal reveal-delay-1">
+            <h3>Apresentador</h3>
+            <p>Participante na IX Semana de Matemática.</p>
+          </article>
+          <article class="achievement-card reveal reveal-delay-2">
+            <h3>Cunhantã Digital</h3>
+            <p>Participante do movimento que mostra que a área de TI também é para mulheres.</p>
+          </article>
+          <article class="achievement-card reveal reveal-delay-3">
+            <h3>Voluntário</h3>
+            <p>No projeto “Incentivando o ingresso de meninas em STEM”.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-card reveal">
+        <div>
+          <span class="eyebrow">Contato</span>
+          <h2 id="contact-title">Vamos construir algo tecnicamente excelente?</h2>
+          <p>
+            Disponível para conexões profissionais, oportunidades técnicas, pesquisa aplicada, cloud, dados e machine learning.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-green" href="mailto:fabio.alencar644@gmail.com">fabio.alencar644@gmail.com</a>
+          <a class="button button-white" href="tel:+5592991980935">+55 92 99198-0935</a>
+          <a class="button button-primary" href="https://www.linkedin.com/in/luiz-fabio" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button button-ghost" href="https://luizalencar17.github.io/portfolio/" target="_blank" rel="noreferrer">Portfólio / Blog</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Luiz Alencar</p>
+      <div class="footer-links">
+        <a href="#about">Sobre</a>
+        <a href="#experience">Experiência</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contato</a>
+      </div>
     </div>
-    <div class="page-wrapper">
-        <div class="left-wraper">
-            <div class="profile scroll-text-animation" data-animation="fade_from_bottom">
-                <div class="image">
-                    <img src="profile.png" alt="Luiz Alencar">
-                </div>
-                <div class="content">
-                    <h2 class="poort-text poort-in-right">Hi, I’m</h2>
-                    <h3 class="poort-text poort-in-right">Luiz Alencar</h3>
-                    <p>Software Engineer | Python | AWS | Machine Learning. Passionate about AI-driven solutions, cloud computing, and data-driven decision-making.
-                    </p>
-                    <ul class="socal-icon">
-                        <li><a href="https://linkedin.com/in/luiz-fabio"><i class="ti-linkedin"></i></a></li>
-                        <li><a href="https://github.com/LuizAlencar17"><i class="ti-github"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="shape">
-                <svg width="372" height="446" viewBox="0 0 372 446" fill="none">
-                    <circle cx="149" cy="223" r="223" fill="url(#paint0_radial_0_374)" fill-opacity="0.6" />
-                    <defs>
-                        <radialGradient id="paint0_radial_0_374" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                            gradientTransform="translate(149 223) rotate(90) scale(223)">
-                            <stop offset="0" stop-color="#C4EF17" stop-opacity="0.8" />
-                            <stop offset="1" stop-color="#1B1C1E" stop-opacity="0" />
-                        </radialGradient>
-                    </defs>
-                </svg>
-            </div>
-        </div>
-        <div class="right-wraper">
-            <section class="hero-section" id="top">
-                <div class="hero-wrap">
-                    <div class="section-top-content">
-                        <h2 class="poort-text poort-in-right">Introduce</h2>
-                        <h3 class="poort-text poort-in-right">Say Hi from Luiz, Software Engineer and Machine Learning Specialist
-                        </h3>
-                        <p>I am a results-driven Software Engineer with expertise in Python, AWS, and Machine Learning. I have experience in designing and deploying scalable software solutions, developing data processing pipelines, and building computer vision models.</p>
-                    </div>
-                    <div class="line-shape"></div>
-                    <div class="funfact-section">
-                        <div class="item">
-                            <h3><span class="odometer" data-count="5">00</span>+</h3>
-                            <h5>Years of Experience</h5>
-                        </div>
-                        <div class="item">
-                            <h3>
-                                <span class="odometer" data-count="4.9">00</span>/<span class="odometer"
-                                    data-count="5"></span>
-                            </h3>
-                            <h5>Average Rating</h5>
-                        </div>
-                        <div class="item">
-                            <h3><span class="odometer" data-count="10">00</span>+</h3>
-                            <h5>Core Competencies</h5>
-                        </div>
-                        <div class="item">
-                            <h3><span class="odometer" data-count="2">00</span></h3>
-                            <h5>Degrees (MSc & BSc)</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="circle-content">
-                    <div>
-                        <svg viewBox="0 0 100 100">
-                            <defs>
-                                <path id="circle" d="
-                                            M 50, 50
-                                            m -37, 0
-                                            a 37,37 0 1,1 74,0
-                                            a 37,37 0 1,1 -74,0" />
-                            </defs>
-                            <text>
-                                <textPath xlink:href="#circle">
-                                    hire me your dream project.
-                                </textPath>
-                            </text>
-                        </svg>
-                    </div>
-                    <div class="arrows">
-                        <svg viewBox="0 0 37 37" fill="none">
-                            <path
-                                d="M12.6789 7.51532V10.182H21.4655L6.01221 25.6353L7.89221 27.5153L23.3455 12.062V20.8487H26.0122V7.51532H12.6789Z"
-                                fill="black" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="bg-shape">
-                    <svg width="596" height="665" viewBox="0 0 596 665" fill="none">
-                        <circle cx="375" cy="290" r="375" fill="url(#paint0_radial_0_373)" fill-opacity="0.6" />
-                        <defs>
-                            <radialGradient id="paint0_radial_0_373" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                gradientTransform="translate(375 290) rotate(90) scale(375)">
-                                <stop offset="0" stop-color="#C4EF17" stop-opacity="0.8" />
-                                <stop offset="1" stop-color="#1B1C1E" stop-opacity="0" />
-                            </radialGradient>
-                        </defs>
-                    </svg>
-                </div>
-                <div class="hero-text-slider">
-                    <div class="item">
-                        <span>Software Engineering <img src="https://wpocean.com/html/tf/portio-live/portio/assets/images/star.svg" alt=""></span>
-                    </div>
-                    <div class="item">
-                        <span>Machine Learning <img src="https://wpocean.com/html/tf/portio-live/portio/assets/images/star.svg" alt=""></span>
-                    </div>
-                    <div class="item">
-                        <span>Cloud & DevOps <img src="https://wpocean.com/html/tf/portio-live/portio/assets/images/star.svg" alt=""></span>
-                    </div>
-                </div>
-            </section>
+    <p class="footer-wordmark" aria-hidden="true">PORTFOLIO</p>
+  </footer>
 
-            <div class="menu-open">
-                <i class="ti-align-justify" id="bar_close"></i>
-            </div>
-
-            <header class="header-section" id="navbar">
-                <div class="menu" id="menu_wrap">
-                    <ul>
-                        <li>
-                            <a href="#top">Home</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#Resume">Resume</a>
-                        </li>
-                        <li>
-                            <a href="#Services">Services</a>
-                        </li>
-                        <li>
-                            <a href="#Portfolio">Portfolio</a>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-
-            <section class="about-section" id="about">
-                <div class="wraper">
-                    <div class="section-top-content">
-                        <h2 class="poort-text poort-in-right">About Me</h2>
-                        <h3 class="poort-text poort-in-right">Software Engineering is My Passion, Creating Scalable Solutions.
-                        </h3>
-                        <h4 class="scroll-text-animation" data-animation="fade_from_bottom">I have extensive experience in Python, AWS, and Machine Learning to give you better services.</h4>
-                        <p class="scroll-text-animation" data-animation="fade_from_bottom">I have developed scalable financial data processing systems and built AI-powered drone systems for environmental monitoring. I am currently pursuing a PhD in Computer Vision at UFAM.
-                        </p>
-                    </div>
-                    <ul class="scroll-text-animation" data-animation="fade_from_bottom">
-                        <li>Programming Languages: Python, JavaScript.</li>
-                        <li>Cloud & DevOps: AWS, Kafka, Microservices.</li>
-                        <li>Machine Learning: Computer Vision, Classification, Recommendation Systems.</li>
-                    </ul>
-                </div>
-                <div class="line-shape"></div>
-            </section>
-
-            <section class="resume-section" id="Resume">
-                <div class="wraper">
-                    <div class="section-top-content">
-                        <h2 class="poort-text poort-in-right">Resume</h2>
-                        <h3 class="poort-text poort-in-right">My Education & Experience</h3>
-                    </div>
-                    <div class="resume-content">
-                        <div class="item scroll-text-animation" data-animation="fade_from_right">
-                            <span>June 2021 - Present</span>
-                            <h2>Software Engineer</h2>
-                            <p>BTG Pactual</p>
-                            <div class="line-shape-2"></div>
-                        </div>
-                        <div class="item scroll-text-animation" data-animation="fade_from_right">
-                            <span>2024 - Present</span>
-                            <h2>PhD in Computer Vision</h2>
-                            <p>Universidade Federal do Amazonas (UFAM)</p>
-                            <div class="line-shape-2"></div>
-                        </div>
-                        <div class="item scroll-text-animation" data-animation="fade_from_right">
-                            <span>2021 - 2024</span>
-                            <h2>Master's Degree in Computer Vision</h2>
-                            <p>Universidade Federal do Amazonas (UFAM)</p>
-                            <div class="line-shape-2"></div>
-                        </div>
-                        <div class="item scroll-text-animation" data-animation="fade_from_right">
-                            <span>March 2021 - November 2021</span>
-                            <h2>Research & Development Engineer</h2>
-                            <p>UEA</p>
-                            <div class="line-shape-2"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="line-shape "></div>
-                <div class="shape">
-                    <svg width="406" height="750" viewBox="0 0 406 750" fill="none">
-                        <circle cx="375" cy="375" r="375" fill="url(#paint0_radial_56_1804)" fill-opacity="0.4" />
-                        <defs>
-                            <radialGradient id="paint0_radial_56_1804" cx="0" cy="0" r="1"
-                                gradientUnits="userSpaceOnUse"
-                                gradientTransform="translate(375 375) rotate(90) scale(375)">
-                                <stop offset="0" stop-color="#C4EF17" stop-opacity="0.8" />
-                                <stop offset="1" stop-color="#1B1C1E" stop-opacity="0" />
-                            </radialGradient>
-                        </defs>
-                    </svg>
-                </div>
-            </section>
-
-            <section class="service-section" id="Services">
-                <div class="wraper">
-                    <div class="section-top-content">
-                        <h2 class="poort-text poort-in-right">Services</h2>
-                        <h3 class="poort-text poort-in-right">My Specializations</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col col-lg-6 col-md-6 col-12">
-                            <div class="service-card scroll-text-animation" data-animation="fade_from_bottom">
-                                <div class="icon">
-                                    <img src="https://wpocean.com/html/tf/portio-live/portio/assets/images/service/1.svg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h2><a href="service-single.html">Software Development</a></h2>
-                                    <span>Microservices Architecture, REST APIs, and scalable solutions.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-6 col-md-6 col-12">
-                            <div class="service-card scroll-text-animation" data-animation="fade_from_bottom">
-                                <div class="icon">
-                                    <img src="https://wpocean.com/html/tf/portio-live/portio/assets/images/service/2.svg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h2><a href="service-single.html">Cloud & DevOps</a></h2>
-                                    <span>AWS infrastructure, Lambda, DynamoDB, and Kafka pipelines.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-6 col-md-6 col-12">
-                            <div class="service-card scroll-text-animation" data-animation="fade_from_bottom">
-                                <div class="icon">
-                                    <img src="https://wpocean.com/html/tf/portio-live/portio/assets/images/service/3.svg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h2><a href="service-single.html">Machine Learning & AI</a></h2>
-                                    <span>Computer Vision models, Recommendation Systems, and Clustering.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-6 col-md-6 col-12">
-                            <div class="service-card scroll-text-animation" data-animation="fade_from_bottom">
-                                <div class="icon">
-                                    <img src="https://wpocean.com/html/tf/portio-live/portio/assets/images/service/4.svg" alt="">
-                                </div>
-                                <div class="content">
-                                    <h2><a href="service-single.html">Data Engineering</a></h2>
-                                    <span>Data pipelines, Real-Time Analytics, and Streamlit dashboards.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="line-shape"></div>
-            </section>
-
-            <section class="portfolio-section" id="Portfolio">
-                <div class="wraper">
-                    <div class="section-top-content">
-                        <h2 class="poort-text poort-in-right">Portfolio</h2>
-                        <h3 class="poort-text poort-in-right">My Featured Projects</h3>
-                    </div>
-                    <div class="gallery-filters">
-                        <div class="port-top-btn">
-                            <ul>
-                                <li><button data-filter=".all" class="active">All</button></li>
-                                <li><button data-filter=".website">Backend</button></li>
-                                <li><button data-filter=".app">AI & ML</button></li>
-                                <li><button data-filter=".webapp">Cloud</button></li>
-                                <li><button data-filter=".brand">Data</button></li>
-                            </ul>
-                        </div>
-                        <div class="portfolio-wrap">
-                            <div class="row gallery-container">
-                                <div class="col-lg-6 col-md-6 col-12 all zoomIn app brand" data-wow-duration="3000ms">
-                                    <div class="protfolio-card">
-                                        <div class="image">
-                                            <img class="thumbnail" src="https://wpocean.com/html/tf/portio-live/portio/assets/images/portfolio/1.jpg" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <h2><a href="portfolio-single.html">Financial Data Processing</a></h2>
-                                            <span>Cloud & Data</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-12 all zoomIn website" data-wow-duration="3000ms">
-                                    <div class="protfolio-card">
-                                        <div class="image">
-                                            <img class="thumbnail2" src="https://wpocean.com/html/tf/portio-live/portio/assets/images/portfolio/2.jpg" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <h2><a href="portfolio-single.html">AI-Powered Drone System</a></h2>
-                                            <span>Computer Vision</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-12 all zoomIn app webapp brand"
-                                    data-wow-duration="3000ms">
-                                    <div class="protfolio-card">
-                                        <div class="image">
-                                            <img class="thumbnail2" src="https://wpocean.com/html/tf/portio-live/portio/assets/images/portfolio/4.jpg" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <h2><a href="portfolio-single.html">Blood Transfusion API</a></h2>
-                                            <span>Backend Design</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-12 all zoomIn brand webapp"
-                                    data-wow-duration="3000ms">
-                                    <div class="protfolio-card">
-                                        <div class="image">
-                                            <img class="thumbnail" src="https://wpocean.com/html/tf/portio-live/portio/assets/images/portfolio/3.jpg" alt="">
-                                        </div>
-                                        <div class="text">
-                                            <h2><a href="portfolio-single.html">COVID-19 Educational Game</a></h2>
-                                            <span>Software Development</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="shape">
-                    <svg width="478" height="478" viewBox="0 0 478 478" fill="none">
-                        <circle cx="239" cy="239" r="239" fill="url(#paint0_radial_56_1806)" fill-opacity="0.6" />
-                        <defs>
-                            <radialGradient id="paint0_radial_56_1806" cx="0" cy="0" r="1"
-                                gradientUnits="userSpaceOnUse"
-                                gradientTransform="translate(239 239) rotate(90) scale(239)">
-                                <stop offset="0" stop-color="#C4EF17" stop-opacity="0.8" />
-                                <stop offset="1" stop-color="#1B1C1E" stop-opacity="0" />
-                            </radialGradient>
-                        </defs>
-                    </svg>
-                </div>
-                <div class="line-shape"></div>
-                <div class="clearfix"></div>
-            </section>
-        </div>
-    </div>
-
-
-
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/jquery-3.7.1.min.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/jquery-plugin-collection.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/gsap.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/gsap-scroll-to-plugin.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/gsap-scroll-trigger.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/gsap-scroll-smoother.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/gsap-split-text.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/simpleParallax.js"></script>
-    <script src="https://wpocean.com/html/tf/portio-live/portio/assets/js/script.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
