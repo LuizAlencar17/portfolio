@@ -808,25 +808,36 @@ body.menu-open .nav-toggle span:last-child {
 .publication-list article {
   display: grid;
   grid-template-columns: 56px 1fr;
-  align-items: center;
+  align-items: start;
   gap: var(--space-md);
   border-radius: var(--radius-lg);
   padding: var(--space-xl);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .publication-list span {
   width: 48px;
-  height: 48px;
+  min-height: 48px;
   display: grid;
   place-items: center;
   border-radius: var(--radius-lg);
-  background: var(--primary);
+  background: var(--green);
+  color: var(--surface-dark);
   font-family: var(--display-font);
+  font-weight: 900;
+  font-size: 0.95rem;
 }
 
-.publication-list h3 {
+.publication-list p {
   margin: 0;
-  font-size: 18px;
+  font-size: 0.96rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.publication-list article:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .achievement-grid {
